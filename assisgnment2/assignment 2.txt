@@ -1,0 +1,30 @@
+sufficient explanation (2-3 paragraphs) of the 
+tools and IP address ranges you chose to scan
+
+------------------------------------------
+1. Active Reconnaissance with Nmap Command
+
+sudo nmap -sn -PE <target>
+------------------------------------------
+2. Find Alive Hosts with Netdiscover 
+
+sudo netdiscover -r <target> 
+------------------------------------------
+3. Find Top 10 Open Ports with Nmap (Fast Scan) 
+
+nmap <target> –top-ports 10 –open
+
+
+The purpose of the first command is to find a network and determine if the host is running. This means we can execute additional commands on the network to check for open ports or other vulnerabilities. This command works by sending a ping, known as an ICMP (Internet Control Message Protocol) request. To further understand this, we use an echo request packet, which contains a small payload and a specific set of numbers for tracking.
+
+The next command I will run is sudo netdiscover -r. This command scans a network to identify active hosts within a given range. But what is a range? For example, if we type 192.168.1.0/24, it will scan IP addresses from 192.168.1.1 to 192.168.1.254. The output will include the IP address, MAC address, vendor, and count. When should a user run this command? It is useful for identifying all devices on a local network and detecting unauthorized devices.
+
+Now for the last command:
+nmap <target> --top-ports 10 --open
+
+This command utilizes Nmap (Network Mapper) to analyze an IP or host and identify the top 10 most commonly used open ports. For example, to scan a specific IP, we would run:
+nmap 192.168.1.1 --top-ports 10 --open
+
+This command helps determine which ports are open and whether there are vulnerabilities in the network.
+
+
