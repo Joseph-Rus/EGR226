@@ -8,7 +8,10 @@
 ![Last Commit](https://img.shields.io/github/last-commit/yourusername/email-security-tool)
 
 <p align="center">
-  <img src="screenshots/app_screenshot.png" alt="Email Security Tool Screenshot" width="600">
+  ![image](https://github.com/user-attachments/assets/f0c23759-cc84-4fc7-baf4-33fbcaaec551)
+  ![image](https://github.com/user-attachments/assets/56e2f185-1e62-48b0-bf83-7f45355826fe)
+
+
 </p>
 
 ## ✨ Features
