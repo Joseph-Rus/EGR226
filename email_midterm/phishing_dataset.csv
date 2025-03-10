@@ -1,0 +1,16 @@
+text,is_phishing
+"Dear customer, your bank account has been locked. Click http://fake-bank.com to verify your identity.",1
+Your PayPal account has been limited. Please update your information at http://paypa1-secure.com/login,1
+<html><form action='http://phishing.com'>Please enter your credit card: <input type='text' name='cc'></form></html>,1
+ALERT: Suspicious activity detected on your account. Verify at http://amazon-verify.com,1
+Your password will expire today. Reset immediately at http://office365-login.net,1
+Your Facebook account has been compromised. Login at http://facebook-login.tk to secure it.,1
+IRS Tax Refund: Claim your $900 at http://irs-refund.xyz,1
+Thank you for your order #12345 from Amazon. Track your delivery here.,0
+Your Netflix subscription has been renewed. See your billing details in your account.,0
+Dropbox: John shared a document with you. Click to view.,0
+"Your flight confirmation: NYC to LAX on June 15, 2023.",0
+GitHub: A new commit was pushed to your repository.,0
+Invitation: Join our team meeting on Zoom tomorrow at 3 PM.,0
+LinkedIn: You have 5 new connection requests.,0
+Your subscription to The New York Times has been confirmed.,0
